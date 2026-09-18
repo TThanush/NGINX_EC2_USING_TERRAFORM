@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Sensitive files
+*.tfvars
+*.tfvars.json
+*.pem
+*.key
+
+# OS / editor
+.vscode/
+.DS_Store
+Thumbs.db
+modules/ec2_creation/providers.tf
